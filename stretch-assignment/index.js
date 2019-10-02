@@ -2,8 +2,6 @@ let blockGroup =  document.querySelector('.blocks');
 
 let block = document.querySelectorAll('.block');
 
-console.log(redBlock.style.x);
-
 // Add clicked block to top
 block.forEach(function(elem) {
     elem.addEventListener("click", () => {
